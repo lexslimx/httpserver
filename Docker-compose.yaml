@@ -1,0 +1,10 @@
+version: "2.1"
+services:
+  qbittorrent:
+    image: leslimxhttpserver:v1
+    volumes:
+      - /mnt/alexfs/Downloads:/user/src/app
+    ports:
+      - 80:80
+    restart: unless-stopped
+ 
