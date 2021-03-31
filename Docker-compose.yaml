@@ -1,7 +1,7 @@
 version: "2.1"
 services:
   qbittorrent:
-    image: leslimxhttpserver:v1
+    image: leslimx/httpserver:v1
     volumes:
       - /mnt/alexfs/Downloads:/user/src/app
     ports:
